@@ -28,8 +28,7 @@ div {
     text-align:left;
     display:block;
     overflow:hidden;
-    background-size: cover;
-    
+    background-size: cover;    
 }
 
 
@@ -54,10 +53,8 @@ div {
 
 
 #Div1{
-    background-image:url(images/story_1.jpg);
-    background-repeat:no-repeat;
-    background-position:left top;
- 
+	background-image:url(images/story_3.jpg);
+    background-color: lightgray;
 }
 
 #Div2{
@@ -67,9 +64,10 @@ div {
 }
 
 #Div3{
-    vertical-align:bottom;
-	background-image:url(images/story_3.jpg);
-    background-color: lightgray;
+	background-image:url(images/story_1.jpg);
+    background-repeat:no-repeat;
+    background-position:left top;
+    
 }
 
 #Div4{

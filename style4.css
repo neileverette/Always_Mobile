@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*--- GENERAL BODY ---*/
+
+
+html, body { 
+	height: 100%; 
+	width: 100%; 
+	margin: 0; 
+	font-family: roboto slab;
+	}
+
+#divOne { 
+	height: 55%; 
+	width: 100%; 
+	background: gray;
+	}
+
+#divTwo { 
+	height: 15%; 
+	width: 100%; 
+	background: blue; 
+	}
+	
+#divThree { 
+	height: 15%; 
+	width: 100%; 
+	background: green; 
+	}
+	
+#divFour { 
+	height: 15%; 
+	width: 100%; 
+	background: yellow; 
+	}
+	
+/*--- CONTENT ---*/	
+
+#articleOne{
+	position: absolute;
+	margin-left: 3em;
+	margin-right: 3em;
+	top: 400px;
+	background-image:url(images/story_1.jpg);
+    background-repeat:no-repeat;
+    background-position:left top;
+	background-size: cover;
+}
+
+#articleTwo{
+	position: absolute;
+	margin-left: 3em;
+	margin-right: 3em;
+	top: 850px;
+}
+
+#articleThree{
+	position: absolute;
+	margin-left: 3em;
+	margin-right: 3em;
+	top: 1100px;
+}
+
+#articleFour{
+	position: absolute;
+	margin-left: 3em;
+	margin-right: 3em;
+	top: 1350px;
+}
+
+#title{
+	position: absolute;
+	margin-left: 3em;
+	margin-right: 3em;
+	top: -150px;
+}
+
+
+/*--- TEXT STYLES --- */
+
+#titleStyle{
+	font-family: roboto slab;
+	font-weight: 100;
+	font-size: 10em;
+	color: white;
+}
+.source{
+	font-family: roboto;
+	font-effect: uppercase;
+	font-size: 1.2em;
+	line-height: 2em;
+	color: #fff;
+	}
+	
+.headlineOpen{
+	font-family: roboto slab;
+	font-weight: 500;
+	font-size: 4em;
+	line-height: 1em;
+	color: #fff;
+	}
+	
+.headline{
+	font-family: roboto slab;
+	font-weight: 500;
+	font-size: 3em;
+	line-height: 1em;
+	color: #fff;
+	}
+
+.abstract{
+	font-family: roboto slab;
+	font-weight: 300;
+	font-size: 1em;
+	color: #fff;
+}
+
