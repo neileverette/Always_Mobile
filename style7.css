@@ -19,9 +19,6 @@ div {
     background-size: cover; 
 }
 
-
-
-
 /*--- MAIN DIV TAGS ---*/
 
 
@@ -150,25 +147,79 @@ background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.52) 32%,rgb
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#d9000000',GradientType=1 ); /* IE6-9 */
 }
 
-#filterOne{
-	position: absolute;
-	line-height: 100%;
-	left: 65%;
+#filterTwo p, #filterThree p, #filterOne p, #filterFour p {
+	width: 400px;
 	text-align: right;
-	top: 35px;
 	font-size: 3em;
 	font-family: roboto;
 	font-weight: 300;
+	line-height: 100%;
 	}
+
+#filterOne{
+	position: absolute;
+	top: 35px;
+	left: 300px;
+	}
+	
+#filterTwo{
+	position: absolute;
+	top: 135px;
+	left: 300px;
+	}
+	
+#filterThree{
+	position: absolute;	
+	top: 235px;
+	left: 300px;
+	}
+
+#filterFour{
+	position: absolute;	
+	top: 335px;
+	left: 300px;
+	}
+	
 #dotOne{
 	position: absolute;
-	left: 85%;
+	left: 725px;
 	top: 80px;
 	height: 50px;
 	width: 50px;
-	background-color:#ff0000;
+	background-color:red;
 	border-radius: 50%;
 	}
+	
+#dotTwo{
+	position: absolute;
+	left: 725px;
+	top: 180px;
+	height: 50px;
+	width: 50px;
+	background-color:orange;
+	border-radius: 50%;
+	}
+
+#dotThree{
+	position: absolute;
+	left: 725px;
+	top: 280px;
+	height: 50px;
+	width: 50px;
+	background-color:yellow;
+	border-radius: 50%;
+	}
+
+#dotFour{
+	position: absolute;
+	left: 725px;
+	top: 380px;
+	height: 50px;
+	width: 50px;
+	background-color:green;
+	border-radius: 50%;
+	}
+
 
 
 
